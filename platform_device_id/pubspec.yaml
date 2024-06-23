@@ -1,7 +1,7 @@
 name: platform_device_id_plus
 description: This is upgraded version of platform_device_id
 version: 1.0.3
-homepage: https://github.com/dttrung-99931/platform_device_id
+homepage: https://github.com/acmonetwork/platform_device_id_plus
 
 environment:
   sdk: ">=2.16.1 <3.0.0"
