@@ -1,6 +1,6 @@
 #import "PlatformDeviceIdPlugin.h"
-#if __has_include(<platform_device_id_upgrade/platform_device_id_upgrade-Swift.h>)
-#import <platform_device_id_upgrade/platform_device_id_upgrade-Swift.h>
+#if __has_include(<platform_device_id_plus/platform_device_id_plus-Swift.h>)
+#import <platform_device_id_plus/platform_device_id_plus-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header
 // is not copied when this plugin is created as a library.

@@ -1,6 +1,6 @@
 name: platform_device_id_plus
 description: This is upgraded version of platform_device_id
-version: 1.0.5
+version: 1.0.6
 homepage: https://github.com/acmonetwork/platform_device_id_plus
 
 environment:
