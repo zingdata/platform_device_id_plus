@@ -2,14 +2,14 @@ group 'com.di1shuai.platform_device_id'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.7.10'
+    ext.kotlin_version = '2.0.0'
     repositories {
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.0'
+        classpath 'com.android.tools.build:gradle:8.6.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace = 'com.di1shuai.platform_device_id'
     compileSdkVersion 34
 
     sourceSets {
@@ -40,7 +41,7 @@ android {
         jvmTarget = 17
     }
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 23
     }
     lintOptions {
         disable 'InvalidPackage'
